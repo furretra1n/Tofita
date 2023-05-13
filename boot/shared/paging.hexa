@@ -264,7 +264,7 @@ fun conventionalAllocateNext(bytes: UInt64): UInt64 {
 	return result
 }
 
-fun mapFrameBuffer(fb: @readonly FrameBuffer) {
+fun mapFrameBuffer(@readonly fb: FrameBuffer) {
 	// TODO map with hugepages!!!
 	// TODO map ALL with EPIC pages?
 	mapMemory(frameBufferVirtualBase, fb.base as! UInt64, fb.size / pageSize + 1u64, 1u8)
