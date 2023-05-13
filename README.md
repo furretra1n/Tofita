@@ -11,7 +11,7 @@ All-new kernel to-fit-a [Greentea OS](https://github.com/GreenteaOS) (hence "Tof
 [![Automatic Builds](https://img.shields.io/badge/Get-Builds-ff69b4.svg?style=flat)](https://ci.appveyor.com/project/PeyTy/tofita/build/artifacts)
 [![Made with Hexa](https://img.shields.io/badge/Code-Hexa-FF7F50.svg?style=flat)](https://github.com/hexalang/hexa)
 
-Greentea OS is aimed to provide complete operating system compatible with existing apps
+Greentea OS is aimed to provide complete operating system compatible with existing apps and programs
 
 ![Screenshot](https://raw.githubusercontent.com/GreenteaOS/Greentea/kawaii/Images/screenshot.jpg)
 
