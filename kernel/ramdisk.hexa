@@ -28,7 +28,7 @@ class RamDiskAssetInfo {
 }
 
 @readonly var _ramdisk: RamDisk = null as! RamDisk
-fun setRamDisk(ramdisk: @readonly RamDisk) {
+fun setRamDisk(@readonly ramdisk: RamDisk) {
 	_ramdisk = ramdisk
 }
 
