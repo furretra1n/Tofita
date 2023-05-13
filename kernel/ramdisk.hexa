@@ -27,7 +27,7 @@ class RamDiskAssetInfo {
 	var offsetFromRamDiskFirstByte: UInt32
 }
 
-var _ramdisk: @readonly RamDisk = null as! RamDisk
+@readonly var _ramdisk: RamDisk = null as! RamDisk
 fun setRamDisk(ramdisk: @readonly RamDisk) {
 	_ramdisk = ramdisk
 }
