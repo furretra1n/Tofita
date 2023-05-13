@@ -69,7 +69,6 @@ function memzero(void *dest, uint64_t len) {
 	memset(dest, 0, len);
 }
 
-void ___chkstk_ms(){};
 
 void vmemcpy(volatile void *dest, const volatile void *src, volatile uint64_t count) {
 	uint8_t *dst8 = (uint8_t *)dest;
