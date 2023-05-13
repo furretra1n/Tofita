@@ -48,7 +48,7 @@
 @volatile @noInline
 @rename('hexa_probeForReadOkay')
 declare
-fun probeForReadOkay(@volatile at: UInt64, bytes: @volatile UInt64): Bool /*{
+fun probeForReadOkay(@volatile at: UInt64, @volatile bytes: UInt64): Bool /*{
 	sehProbe = true
 	// TODO do not probe upper half to not touch mmio from user process while probing
 	// TODO per-page not per-byte
