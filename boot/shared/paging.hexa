@@ -163,7 +163,7 @@ fun mapMemoryHuge(virtualAddr: UInt64, physicalAddr: UInt64, pageCount: UInt64) 
 	}
 }
 
-fun getNextDescriptor(descriptor: @readonly EFI_MEMORY_DESCRIPTOR, descriptorSize: UInt64) {
+fun getNextDescriptor(@readonly descriptor: EFI_MEMORY_DESCRIPTOR, descriptorSize: UInt64) {
 	let desc = (descriptor as! UInt64) + descriptorSize
 	return desc as! @readonly EFI_MEMORY_DESCRIPTOR
 }
